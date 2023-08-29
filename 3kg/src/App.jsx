@@ -7,6 +7,8 @@ import sergio_deprimido from './img/sergio_deprimido.png'
 import sergio_detective from './img/sergio_detective.png'
 import sergio_chicosano from './img/sergio_chicosano.png'
 import sergio_rockstar from './img/sergio_rockstar.png'
+import sergio_putero from './img/sergio_putero.png'
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -15,8 +17,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
     <>
       <h1>¿Qué Sergio Eres Hoy?</h1>
@@ -26,6 +27,7 @@ function App() {
         <SwiperSlide><img src={sergio_detective} alt="Sergio detective"/><h1>Sergio Detective &#128526;</h1></SwiperSlide>
         <SwiperSlide><img src={sergio_chicosano} alt="Sergio chico sano"/><h1>Sergio Libertad 🗽</h1></SwiperSlide>
         <SwiperSlide><img src={sergio_rockstar} alt="Sergio rockstar"/><h1>Sergio Rockstar &#127928;</h1></SwiperSlide>
+        <SwiperSlide><img src={sergio_putero} alt="Sergio putero"/><h1>Sergio Putero 🔥</h1></SwiperSlide>
       </Swiper>
     </>
   )
